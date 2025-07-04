@@ -1,9 +1,9 @@
+import HeroSection from "../component/heroSection"
+import WhyOurAIResume from "../component/why"
 
-import HeroSection from "../component/heroSection";
-import WhyOurAIResume from "../component/why";
 const LandingPage = () => {
   return (
-    <div className="min-h-screen w-full bg-black text-white font-sans">
+    <div>
       <HeroSection />
       <WhyOurAIResume />
     </div>
